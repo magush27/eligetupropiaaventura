@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Suplente</title>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+  <!--<link rel='stylesheet' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>-->
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+<!-- Estilo y script VOTADOR -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet prefetch' href='https://ilt-insightdlp-static.s3.amazonaws.com/css/default.css'>
+<link rel="stylesheet" href="css/votador.css">
+<script type="text/javascript" src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+<script type="text/javascript" src="js/votador.js"></script>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+</head>
+
+  <body>
+<section>
+  <div class="resetCards"><a href="#">Volver a empezar</a></div>
+  <ol class="slider-list">
+
+    <li class="slide">
+      <p class="message">
+        Que en un mismo curso haya gente de quince junto a chicos de once y doce le suena a bidón de nafta y encendedores: quilombo cerca. <br>
+        Piensa en cómo llevar adelante una clase que les interese a todos.
+  </p>
+  <div class="container5">
+    <button class="btn typ-subhed ctrl-standard yes" id="yesbtn5" onclick="window.location.href='alternativa1.html';">Combinar actividades para estructuras temporales diferentes.</button>
+    <button class="btn typ-subhed ctrl-standard no" id="nobtn5" onclick="window.location.href='alternativa2.html';">Formación de los alumnos para el trabajo autónomo.</button>
+    <button class="btn typ-subhed ctrl-standard maybe" id="maybebtn3" onclick="window.location.href='alternativa3.html';">Intervenciones con estudiantes.</button>
+  </div>
+
+</li>
+
+    <li class="slide">
+      <p class="message">
+Recuerda muy pocos nombres de los que escuchó: Maira, Natalia, Federico, Mariela. <br>
+Y le preocupan los alumnos desfasados. <br>
+</p>
+</li>
+    <!-- FIN ACTO 2 -->
+    <li class="slide">
+      <p class="message">
+          Y lo sorprenden dos cosas...<br>
+        <span class="subject">  Es la primera vez en su vida que pega un grito y que todos lo están mirando.</span><br>
+  </p>
+
+    <li class="slide">
+      <p class="message">
+        Lo ignoran...
+    </p>
+    <div class="container4">
+
+          <button class="btn typ-subhed ctrl-standard maybe" id="maybebtn3" onclick="maybeClicked3()" >¡¿PUEDEN CALLARSE DE UNA VEZ?!</button>
+        </div>
+
+</li>
+    <li class="slide">
+      <p class="message">
+        Cuando Sebastián entra, la puerta se cierra. <br>
+        <span class="subject">Qué harías si fueras Sebastián?</span>
+      </p>
+      <div class="container4">
+        <button class="btn typ-subhed ctrl-standard yes" id="yesbtn3" onclick="yesClicked3()">Saludás al curso.</button>
+        <button class="btn typ-subhed ctrl-standard no" id="nobtn3" onclick="noClicked3()">Escribís tu nombre en el pizarrón.</button>
+        <button class="btn typ-subhed ctrl-standard maybe" id="maybebtn3" onclick="maybeClicked3()" >¡¿PUEDEN CALLARSE DE UNA VEZ?!</button>
+      </div>
+
+          </li>
+    <li class="slide">
+      <p class="message">
+        Al rato aparece una mujer que le pregunta si es el suplente de Lengua.<br>
+        Responde que sí.<br>
+        La mujer respira aliviada:<br>
+        -Los chicos están imbancables, te esperan hace un montón – escucha Sebastián y le parece un reto.<br>
+        -Sí, pasa que recién tomé las horas y vine lo más rápido que pude – dice y ella avanza sin mirarlo. Llegan a un salón y la mujer le indica que ese es el curso.
+        e escuchan gritos desde afuera.
+      </p>
+          </li>
+
+    <li class="slide">
+      <p class="message">
+    Camina apurado porque sabe que llega muy tarde.<br>
+    Entra, se presenta como un suplente que va a tomar un cargo y el portero dice que la Dirección está al final del pasillo. <br>
+    Llega y ve que no hay nadie.<br>
+</p>
+    </li>
+
+    <li class="slide">
+      <p class="message">
+        El colectivo para en una esquina:<br>
+        -La escuela está allá- señala el chofer.<br>
+        Sebastián agradece y baja.<br>
+</p>
+    </li>
+
+
+  <li class="slide">
+    <p class="message"><span class="subject">Entonces elegís cualquier colegio y luego preguntas las dirección cuando vas en el bondi</span></p>
+  </li>
+
+    <li class="slide">
+      <p class="message"><span class="subject"> Cuál colegio elegís vos?</span></p>
+      <div class="container3">
+        <button class="btn typ-subhed ctrl-standard yes" id="yesbtn3" onclick="yesClicked3()">COLEGIO A</button>
+        <button class="btn typ-subhed ctrl-standard no" id="nobtn3" onclick="noClicked3()">COLEGIO B</button>
+        <button class="btn typ-subhed ctrl-standard maybe" id="maybebtn3" onclick="maybeClicked3()" >COLEGIO C</button>
+      </div>
+    </li>
+
+  <li class="slide">
+    <p class="message">
+      No le contestan.<br>
+      Sigue mirando los números de los colegios y escucha:<br>
+      -Si no sabés cuál tomar, dejá lugar a los demás, que sí saben.<br>
+      Esas palabras lo ponen incómodo.
+    </p>
+  </li>
+
+
+    <li class="slide">
+      <p class="message">
+        Pregunta de vuelta si saben, aunque sea una zona de referencia como para orientarse…<br>
+        <span class="subject">Vos qué hacés?</span>
+        <!-- VOTADOR 2 -->
+        <div class="container2">
+          <button class="btn typ-subhed ctrl-standard yes" id="yesbtn2" onclick="yesClicked2()">Sabés y le respondés</button>
+          <button class="btn typ-subhed ctrl-standard no" id="nobtn2" onclick="noClicked2()">No sabés y no contestás</button>
+          <button class="btn typ-subhed ctrl-standard maybe" id="maybebtn2" onclick="maybeClicked2()" >Sabés y no contestás, querés que sea tu turno</button>
+        </div>
+
+
+      </p>
+    </li>
+
+
+    <li class="slide">
+      <p class="message">
+        Nadie parece saber. <br>
+        Los horarios se superponen, así que no puede tomar más de un curso.<br>
+      </p>
+    </li>
+
+    <li class="slide">
+      <p class="message"> Nadie parece saber. <br>
+          No compró el listado de los colegios con sus direcciones y teléfonos. <br>
+          Siente que ahora no da para pedírselo a los que están ahí.<br>
+          Gente de mierda, piensa...<br>
+      </p>
+    </li>
+    <li class="slide">
+      <p class="message">No sabe dónde quedan las escuelas.<br> <span class="subject">Vos qué hacés?</span></p>
+      <!-- VOTADOR 1 -->
+      <div class="container">
+        <button class="btn typ-subhed ctrl-standard yes" id="yesbtn1" onclick="yesClicked1()">Sabés y le respondés</button>
+        <button class="btn typ-subhed ctrl-standard no" id="nobtn1" onclick="noClicked1()">No sabés y no contestás</button>
+        <button class="btn typ-subhed ctrl-standard maybe" id="maybebtn1" onclick="maybeClicked1()" >Sabés y no contestás, querés que sea tu turno</button>
+      </div>
+
+    </li>
+    <li class="slide">
+      <p class="message">La mujer pregunta el puntaje y le toca a Sebastián porque tiene el más alto.<br>
+        Le piden el documento y que elija entre los tres cursos que quedaron.<br>
+      Todos séptimos.<br> ¿Cuál me conviene?, piensa.</p>
+    </li>
+    <li class="slide">
+      <p class="message">Avisan que se tomaron todos los cursos de “Media y Polimodal” y la mitad se va. <br>
+  - ¿Hay alguien del listado oficial? - preguntan sin ganas y nadie responde. <br>
+  - ¿Del listado A Infine?, ¿del 180 B? - y entonces todos levantan la mano. Entre ellos Sebastián.</p>
+    </li>
+    <li class="slide">
+      <p class="message">Las escuelas que necesitan suplentes están en la pared, pero no alcanza a verlas por las cabezas de la gente.<br> La mayoría son mujeres.<br>
+        Pasan de a una por puntaje, de mayor a menor. El tiempo corre y todos se inquietan por la tardanza de algunas.<br>
+        Se escuchan murmullos, pero nadie dice nada en voz alta. </p>
+
+    </li>
+		<li class="slide">
+       <p class="message">
+         El lugar es chico.<br> Son muchas personas y están incómodos, corre poco aire.<br> Una mujer avisa que empiezan con “Media y Polimodal” y con el listado oficial, los que ya están recibidos.<br>
+         Como Sebastián terminó sus estudios el año anterior no está entre esos nombres, recién al segundo año de estar recibido se aparece en ese listado.</p>
+    </li>
+  </ol>
+</section>
+  <section class="options">
+    <a href="#" class="disagree">&larr;Siguiente</a> |
+    <a href="#" class="skip">Siguiente&darr;</a> |
+    <a href="#" class="agree">Siguiente&rarr;</a>
+  </section>
+  <section class="instructions">
+    Desliza para pasar de página.  (o usá las flechas: &larr; &rarr; &darr; )
+  </section>
+</body>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='http:///cdnjs.cloudflare.com/ajax/libs/hammer.js/1.1.3/hammer.min.js'></script>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+</body>
+
+</html>

@@ -5,3 +5,88 @@
   padding: 5px;
   vertical-align: middle;
 }
+
+h1{
+  text-align: center;
+}
+
+
+/* Pantalla inicio de juego*/
+
+/*Boton de juego*/
+#playbutton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 5px 30px;
+  background: rgba(0,0,0,0);
+  /*border: 25px;*/
+  /*background: #b7bc3e;*/
+  /*background-image: url("../img/botonjugar.png");*/
+  font-size: 60px;
+  border: none;
+  box-shadow: 0 5px rgba(95, 154, 226,0.5);
+  border-radius: 30px;
+  font-family: fruktur;
+  color: black;
+  /*border: solid black;*/
+}
+#playbutton:active {
+  background-color: rgba(252,143,143,0.5);
+  box-shadow: 0 4px rgba(95, 154, 226,0.5);
+  transform: translateY(4px);
+  /*border: solid black;*/
+}
+
+#playbutton:hover {
+  background-color: rgba(206, 200, 200, 0.5);
+/*border: solid black;*/}
+
+
+/*Seccion de titulo*/
+div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17%;
+  /*border-radius: 20px;*/
+  /*border: solid black;*/
+  background-color: rgba(0,0,0,0);
+
+
+}
+
+div{
+  font-size: 40px;
+  text-align: center;
+  font-family: fruktur;
+}
+
+/*Cuerpo*/
+body {
+  display:block;
+  background-image:url("../img/hojacuaderno.jpg");
+  background-size:cover;
+}
+
+#buttonplay {
+  display: block;
+  margin: 0 auto;
+  /*border: 25px;*/
+  background: #1a3300;
+  font-size: 60px;
+  box-shadow: 0 8px #0d1a00;
+  border-radius: 15px;
+  font-family: fruktur;
+  color: black;
+  border: solid black;
+}
+#buttonplay:active {
+  background-color: #284d00;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+    border: solid black;
+}
+
+#buttonplay:hover {background-color: #284d00;
+  border: solid black;}
